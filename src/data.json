@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Tiny Tina's Wonderlands - Epic games",
+        "rating_age": "https://www.claners.com/app/templates/default/images/ratingsymbol-s_m.png",
+        "video_game_poster": "https://s3-us-west-2.amazonaws.com/www.claners.com/uploads/products/thumbs/78567852cb3b91629fd49540127c4b08large.jpg",
+        "priceOriginal": "1369.00",
+        "priceWithDiscount": "1250.50",
+        "discount": "20%",
+        "description": "¡Embárcate en una increíble aventura de extravagancias, asombro y armamento de alta potencia! Balas, magia y espadas abundan en este caótico mundo de fantasía que cobra vida gracias a la impredecible Tiny Tina. Crea a tu propio héroe multiclase y saquea, dispara, corta y lanza hechizos contra estrafalarios enemigos por mazmorras repletas de botín para detener al tiránico Dragon Lord. Todo el mundo es bienvenido, ¡así que ponte tus botas para aventuras y saca tu lado caótico genial!",
+        "minSpecs": ["Requiere un procesador y un sistema operativo de 64 bits", "SO: Windows 10 64-bit", "Procesador: 2.5GHz dual core processor or higher", "Memoria: 4 GB de RAM", "Gráficos: Intel HD 530, GeForce GT 430 or Radeon HD 5570", "Almacenamiento: 6 GB de espacio disponible"],
+        "RecomendSpecs": ["Requiere un procesador y un sistema operativo de 64 bits", "SO: Windows 10 64-bit", "Procesador: 2.4GHz i5 or higher", "Memoria: 4 GB de RAM", "Gráficos: GeForce GTX 550 Ti or Radeon HD 4850", "Almacenamiento: 6 GB de espacio disponible"]
+    },
+    {
+        "id": "2",
+        "title": "Tiny Tina's Wonderlands: Chaotic Great Edition(LATAM) - Steam",
+        "rating_age": "https://www.claners.com/app/templates/default/images/ratingsymbol-s_t.png",
+        "video_game_poster": "https://s3-us-west-2.amazonaws.com/www.claners.com/uploads/products/thumbs/6a172cde7bc5edb8c62697de57325762large.jpg",
+        "priceOriginal": "1320.00",
+        "priceWithDiscount": "990.00",
+        "discount": "20%",
+        "description": "¡Embárcate en una increíble aventura de extravagancias, asombro y armamento de alta potencia! Balas, magia y espadas abundan en este caótico mundo de fantasía que cobra vida gracias a la impredecible Tiny Tina. Crea a tu propio héroe multiclase y saquea, dispara, corta y lanza hechizos contra estrafalarios enemigos por mazmorras repletas de botín para detener al tiránico Dragon Lord. Todo el mundo es bienvenido, ¡así que ponte tus botas para aventuras y saca tu lado caótico genial!",
+        "minSpecs": ["Requiere un procesador y un sistema operativo de 64 bits", "SO: Windows 10 64-bit", "Procesador: 2.5GHz dual core processor or higher", "Memoria: 4 GB de RAM", "Gráficos: Intel HD 530, GeForce GT 430 or Radeon HD 5570", "Almacenamiento: 6 GB de espacio disponible"],
+        "RecomendSpecs": ["Requiere un procesador y un sistema operativo de 64 bits", "SO: Windows 10 64-bit", "Procesador: 2.4GHz i5 or higher", "Memoria: 4 GB de RAM", "Gráficos: GeForce GTX 550 Ti or Radeon HD 4850", "Almacenamiento: 6 GB de espacio disponible"]
+    }
+]
