@@ -7,7 +7,6 @@ function Cart() {
   const [favorite, setFavorite] = useState([]);
   const [products] = useState(Data);
 
-
   //tipos de productos, para saber si es inventario infinito
   //context
   const add_cart = (_game) => {

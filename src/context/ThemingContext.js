@@ -7,11 +7,12 @@ import IosShareIcon from "@mui/icons-material/IosShare";
 
 export const ThemingContext = createContext();
 
+// 👇 ctrl + f para cambiar ".clanersDefault" por ".clanersHalloween"
 const ThemingProvider = (props) => {
   const BTNbuyNow = styled(Button)(({ theme }) => ({
     backgroundColor: theme.clanersDefault.ColorSecondary,
     color: theme.clanersDefault.ColorPrimary,
-    fontSize: theme.clanersDefault.fontSizeButtonCar,
+    font: theme.clanersDefault.fontButtonCar,
     borderRadius: theme.clanersDefault.borderRadius,
     minWidth: theme.clanersDefault.minWidthAddCar,
     borderColor: theme.clanersDefault.ColorPrimary,
@@ -25,7 +26,7 @@ const ThemingProvider = (props) => {
   const BTNaddCar = styled(Button)(({ theme }) => ({
     backgroundColor: theme.clanersDefault.ColorPrimary,
     color: theme.clanersDefault.ColorSecondary,
-    fontSize: theme.clanersDefault.fontSizeButtonCar,
+    font: theme.clanersDefault.fontButtonCar,
     borderRadius: theme.clanersDefault.borderRadius,
     minWidth: theme.clanersDefault.minWidthAddCar,
     ":hover": {
@@ -75,12 +76,13 @@ const ThemingProvider = (props) => {
 
   const theme = createTheme({
     clanersDefault: {
+      // 👇Cambia los colores para ver los cambios
       ColorPrimary: "#00FF7F",
       ColorSecondary: "#000",
 
       borderRadius: "0",
       minWidthAddCar: "90%",
-      fontSizeButtonCar: "20px",
+      fontButtonCar: "normal normal 500 1.25em Roboto",
 
       fontSizeHeartShare: "40px",
     },

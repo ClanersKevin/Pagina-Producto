@@ -167,9 +167,7 @@ function Product(props) {
               lg={2}
               xl={2}
             >
-              <Button>
-                <MenuShare />
-              </Button>
+              <MenuShare />
             </Grid>
           </Grid>
           <Grid
@@ -282,7 +280,6 @@ function Product(props) {
                 </Grid>
                 <Grid
                   item
-                  direction="row"
                   xs={12}
                   sm={12}
                   md={12}
@@ -296,10 +293,10 @@ function Product(props) {
                     item
                     container
                     direction="row"
-                    spacing
+                    spacing={1}
                     justifyContent="flex-end"
                   >
-                    <Grid item>
+                    <Grid item sx={{  }}>
                       <Typography>a</Typography>
                     </Grid>
                     <Grid item>
@@ -411,6 +408,7 @@ function Product(props) {
             </Grid>
             <Grid marginTop="2em">
               <Grid
+                item
                 container
                 direction="column"
                 justifyContent="center"
@@ -478,7 +476,7 @@ function Product(props) {
                       </Typography>
                       {Data[0].minSpecs.map(function (element, index) {
                         return (
-                          <Grid container>
+                          <Grid key={index} container>
                             <ListItemText
                               key={index}
                               primaryTypographyProps={{
@@ -506,7 +504,7 @@ function Product(props) {
                     </Grid>
                     {Data[0].RecomendSpecs.map(function (element, index) {
                       return (
-                        <Grid container>
+                        <Grid key={index} container>
                           <ListItemText
                             key={index}
                             primaryTypographyProps={{
